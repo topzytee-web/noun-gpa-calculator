@@ -213,3 +213,7 @@ let doc = new jsPDF();
   
   doc.save("GPA_Report_TulsiT.pdf");
 }
+// Register service worker for PWA install
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}

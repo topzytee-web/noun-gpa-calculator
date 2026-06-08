@@ -1,15 +1,17 @@
 {
   "name": "NOUN GPA Calculator",
   "short_name": "NOUN GPA",
+  "description": "Calculate your NOUN GPA and CGPA",
   "start_url": "/noun-gpa-calculator/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#4CAF50",
   "icons": [
-  {
-    "src": "/noun-gpa-calculator/icon-512.png",
-    "sizes": "512x512",
-    "type": "image/png",
-    "purpose": "any maskable"
-  }
-]
+    {
+      "src": "/noun-gpa-calculator/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "NOUN GPA Calculator",
+  "short_name": "NOUN GPA",
+  "start_url": "/noun-gpa-calculator/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "icons": []
+}

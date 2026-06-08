@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>https://codepen.io/TopzyTee/pen/abc123</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div style="text-align:center; margin:20px 0; padding:15px; border-bottom:3px solid #1a7a2e;">
+  <h1 style="color:#1a7a2e; margin:0;">NATIONAL OPEN UNIVERSITY OF NIGERIA</h1>
+  <p style="margin:5px 0; font-size:14px; color:#666;">NOUN - Learn At Any Place At Your Pace</p>
+</div>
+<script type="importmap">
+{
+  "imports": {
+    "jspdf": "https://cdn.skypack.dev/jspdf@2.5.1"
+  }
+}
+</script>
+<script src="https://unpkg.com/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+<div style="max-width:900px; margin:auto; padding:20px;">
+  <h1>GPA CALCULATOR</h1>
+<button id="themeToggle" style="float:right; padding:8px 15px; border:none; border-radius:8px; cursor:pointer;">🌙 Dark Mode</button>
+
+  <div style="text-align:center; margin:30px 0;">
+    <canvas id="arcGauge" width="300" height="180"></canvas>
+    <p id="unitsTotal">Units Total: 0</p>
+  </div>
+
+  <div style="display:flex; gap:10px; margin-bottom:15px;">
+    <div id="semTabs" style="flex:1; display:flex; gap:5px; flex-wrap:wrap;"></div>
+    <button onclick="addSemester()">Add Semester +</button>
+  </div>
+
+  <h3 id="semTitle">Semester 1</h3>
+  <table id="courseTable">
+    <tr><th>Course Name</th><th>Grade</th><th>Credits</th><th></th></tr>
+  </table>
+
+  <button onclick="addCourse()">+ Add Course</button>
+  <button onclick="calculateGPA()">Calculate GPA</button>
+<button onclick="exportPDF()">📄 Export PDF</button>
+<button onclick="toggleChart()" style="background:#0ea5e9; color:white;">View Analysis</button>
+<div id="chartDiv" style="display:none;">
+  <h3 style="text-align:center;">CGPA and GPA at each semester chart</h3>
+  <canvas id="lineChart" width="800" height="300"></canvas>
+</div>
+
+  <p id="result">Semester GPA: 0.00</p>
+  <canvas id="lineChart" width="800" height="300" style="margin-top:30px;"></canvas>
+<p style="text-align:center; margin-top:20px; color:#64748b;">Built by TopzyTee 🔥</p>
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>

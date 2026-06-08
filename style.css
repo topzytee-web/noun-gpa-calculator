@@ -1,0 +1,20 @@
+body { font-family: 'Segoe UI', Arial; background:#f8fafc; margin:0; }
+h1 { text-align:center; color:#1e40af; }
+table { width:100%; border-collapse:collapse; background:white; margin:15px 0; }
+th { background:#2563eb; color:white; padding:12px; }
+td { padding:10px; border:1px solid #e2e8f0; }
+input, select { width:95%; padding:6px; border:1px solid #cbd5e1; }
+button { padding:10px 16px; border:none; cursor:pointer; border-radius:6px; }
+button:nth-child(1) { background:#16a34a; color:white; }
+.sem-tab { padding:8px 14px; background:#e2e8f0; border-radius:20px; cursor:pointer; }
+.sem-tab.active { background:#2563eb; color:white; }
+body.dark {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+body.dark .sem-tab { background: #1e293b; color: #e2e8f0; }
+body.dark .sem-tab.active { background: #2563eb; }
+body.dark table { background: #1e293b; }
+body.dark th { background: #334155; color: white; }
+body.dark td { border-bottom: 1px solid #334155; }
+body.dark input, body.dark select { background: #334155; color: white; border: 1px solid #475569; }
